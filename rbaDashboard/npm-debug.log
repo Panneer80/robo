@@ -1,0 +1,521 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'exchanger' ]
+2 info using npm@3.8.6
+3 info using node@v6.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData exchanger
+8 silly fetchNamedPackageData exchanger
+9 silly mapToRegistry name exchanger
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'exchanger',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'exchanger',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/exchanger
+14 verbose request uri https://registry.npmjs.org/exchanger
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 12:12:28 PM
+17 verbose request id c2a619af72e3860e
+18 http request GET https://registry.npmjs.org/exchanger
+19 http 200 https://registry.npmjs.org/exchanger
+20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 verbose headers   etag: '"9E3NR0AM40MM3HOG2F1KBRXJ6"',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '1622',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Wed, 04 May 2016 06:42:29 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'close',
+20 verbose headers   'x-served-by': 'cache-iad2135-IAD',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1462344149.477006,VS0,VE75',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 silly get     etag: '"9E3NR0AM40MM3HOG2F1KBRXJ6"',
+21 silly get     'content-type': 'application/json',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '1622',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Wed, 04 May 2016 06:42:29 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'close',
+21 silly get     'x-served-by': 'cache-iad2135-IAD',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1462344149.477006,VS0,VE75',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving exchanger to C:\Users\panneer.selvam\AppData\Roaming\npm-cache\registry.npmjs.org\exchanger\.cache.json
+23 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule exchanger@0.1.1 checking installable status
+37 silly cache add args [ 'exchanger', null ]
+38 verbose cache add spec exchanger
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'exchanger',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'exchanger',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed exchanger@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for exchanger
+42 info addNameTag [ 'exchanger', 'latest' ]
+43 silly mapToRegistry name exchanger
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'exchanger',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'exchanger',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/exchanger
+48 verbose addNameTag registry:https://registry.npmjs.org/exchanger not in flight; fetching
+49 verbose get https://registry.npmjs.org/exchanger not expired, no request
+50 silly addNameTag next cb for exchanger with tag latest
+51 silly addNamed exchanger@0.1.1
+52 verbose addNamed "0.1.1" is a plain semver version for exchanger
+53 silly mapToRegistry name exchanger
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'exchanger',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'exchanger',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/exchanger
+58 verbose addRemoteTarball https://registry.npmjs.org/exchanger/-/exchanger-0.1.1.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/exchanger/-/exchanger-0.1.1.tgz',
+59 verbose addRemoteTarball   'b7da9ec46dad481b3845e2311df6815919af4993' ]
+60 info retry fetch attempt 1 at 12:12:29 PM
+61 info attempt registry request try #1 at 12:12:29 PM
+62 http fetch GET https://registry.npmjs.org/exchanger/-/exchanger-0.1.1.tgz
+63 http fetch 200 https://registry.npmjs.org/exchanger/-/exchanger-0.1.1.tgz
+64 silly fetchAndShaCheck shasum b7da9ec46dad481b3845e2311df6815919af4993
+65 verbose addTmpTarball C:\Users\PANNEE~1.SEL\AppData\Local\Temp\npm-11068-eeb2b39f\registry.npmjs.org\exchanger\-\exchanger-0.1.1.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for exchanger@0.1.1
+67 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd exchanger@0.1.1
+69 verbose afterAdd C:\Users\panneer.selvam\AppData\Roaming\npm-cache\exchanger\0.1.1\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\panneer.selvam\AppData\Roaming\npm-cache\exchanger\0.1.1\package\package.json written
+72 silly fetchNamedPackageData moment
+73 silly mapToRegistry name moment
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'moment',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'moment',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/moment
+78 silly fetchNamedPackageData xml2js
+79 silly mapToRegistry name xml2js
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'xml2js',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   name: 'xml2js',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/xml2js
+84 silly fetchNamedPackageData underscore
+85 silly mapToRegistry name underscore
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'underscore',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   name: 'underscore',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/underscore
+90 silly fetchOtherPackageData soap@git://github.com/adamghill/node-soap.git
+91 silly cache add args [ 'soap@git://github.com/adamghill/node-soap.git', null ]
+92 verbose cache add spec soap@git://github.com/adamghill/node-soap.git
+93 verbose request uri https://registry.npmjs.org/xml2js
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 12:12:32 PM
+96 http request GET https://registry.npmjs.org/xml2js
+97 verbose request uri https://registry.npmjs.org/underscore
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 12:12:32 PM
+100 http request GET https://registry.npmjs.org/underscore
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'soap@git://github.com/adamghill/node-soap.git',
+101 silly cache add   scope: null,
+101 silly cache add   name: 'soap',
+101 silly cache add   rawSpec: 'git://github.com/adamghill/node-soap.git',
+101 silly cache add   spec: 'git://github.com/adamghill/node-soap.git',
+101 silly cache add   type: 'hosted',
+101 silly cache add   hosted:
+101 silly cache add    { type: 'github',
+101 silly cache add      ssh: 'git@github.com:adamghill/node-soap.git',
+101 silly cache add      sshUrl: 'git+ssh://git@github.com/adamghill/node-soap.git',
+101 silly cache add      httpsUrl: 'git+https://github.com/adamghill/node-soap.git',
+101 silly cache add      gitUrl: 'git://github.com/adamghill/node-soap.git',
+101 silly cache add      shortcut: 'github:adamghill/node-soap',
+101 silly cache add      directUrl: 'https://raw.githubusercontent.com/adamghill/node-soap/master/package.json' } }
+102 verbose addRemoteGit caching git://github.com/adamghill/node-soap.git
+103 verbose addRemoteGit git://github.com/adamghill/node-soap.git is a repository hosted by github
+104 silly tryClone cloning git://github.com/adamghill/node-soap.git via git://github.com/adamghill/node-soap.git
+105 verbose tryClone git-github-com-adamghill-node-soap-git-35839993 not in flight; caching
+106 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+107 verbose makeDirectory C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+108 verbose request uri https://registry.npmjs.org/moment
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 12:12:32 PM
+111 verbose etag "AW4S6KTPNC4KN8TN2QPY1WBLQ"
+112 http request GET https://registry.npmjs.org/moment
+113 verbose makeCacheDir UID & GID are irrelevant on win32
+114 info git [ 'clone',
+114 info git   '--template=C:\\Users\\panneer.selvam\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+114 info git   '--mirror',
+114 info git   'git://github.com/adamghill/node-soap.git',
+114 info git   'C:\\Users\\panneer.selvam\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-adamghill-node-soap-git-35839993' ]
+115 http 200 https://registry.npmjs.org/underscore
+116 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+116 verbose headers   etag: '"5U2C90741S0OGYJZDF5NSSBSD"',
+116 verbose headers   'content-type': 'application/json',
+116 verbose headers   'content-encoding': 'gzip',
+116 verbose headers   'cache-control': 'max-age=300',
+116 verbose headers   'content-length': '7740',
+116 verbose headers   'accept-ranges': 'bytes',
+116 verbose headers   date: 'Wed, 04 May 2016 06:42:33 GMT',
+116 verbose headers   via: '1.1 varnish',
+116 verbose headers   age: '150',
+116 verbose headers   connection: 'close',
+116 verbose headers   'x-served-by': 'cache-iad2122-IAD',
+116 verbose headers   'x-cache': 'HIT',
+116 verbose headers   'x-cache-hits': '2',
+116 verbose headers   'x-timer': 'S1462344153.486012,VS0,VE0',
+116 verbose headers   vary: 'Accept-Encoding' }
+117 silly get cb [ 200,
+117 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+117 silly get     etag: '"5U2C90741S0OGYJZDF5NSSBSD"',
+117 silly get     'content-type': 'application/json',
+117 silly get     'content-encoding': 'gzip',
+117 silly get     'cache-control': 'max-age=300',
+117 silly get     'content-length': '7740',
+117 silly get     'accept-ranges': 'bytes',
+117 silly get     date: 'Wed, 04 May 2016 06:42:33 GMT',
+117 silly get     via: '1.1 varnish',
+117 silly get     age: '150',
+117 silly get     connection: 'close',
+117 silly get     'x-served-by': 'cache-iad2122-IAD',
+117 silly get     'x-cache': 'HIT',
+117 silly get     'x-cache-hits': '2',
+117 silly get     'x-timer': 'S1462344153.486012,VS0,VE0',
+117 silly get     vary: 'Accept-Encoding' } ]
+118 verbose get saving underscore to C:\Users\panneer.selvam\AppData\Roaming\npm-cache\registry.npmjs.org\underscore\.cache.json
+119 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+120 http 304 https://registry.npmjs.org/moment
+121 verbose headers { date: 'Wed, 04 May 2016 06:42:33 GMT',
+121 verbose headers   via: '1.1 varnish',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   etag: '"AW4S6KTPNC4KN8TN2QPY1WBLQ"',
+121 verbose headers   age: '210',
+121 verbose headers   connection: 'close',
+121 verbose headers   'x-served-by': 'cache-iad2126-IAD',
+121 verbose headers   'x-cache': 'HIT',
+121 verbose headers   'x-cache-hits': '4',
+121 verbose headers   'x-timer': 'S1462344153.719220,VS0,VE0',
+121 verbose headers   vary: 'Accept-Encoding' }
+122 silly get cb [ 304,
+122 silly get   { date: 'Wed, 04 May 2016 06:42:33 GMT',
+122 silly get     via: '1.1 varnish',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     etag: '"AW4S6KTPNC4KN8TN2QPY1WBLQ"',
+122 silly get     age: '210',
+122 silly get     connection: 'close',
+122 silly get     'x-served-by': 'cache-iad2126-IAD',
+122 silly get     'x-cache': 'HIT',
+122 silly get     'x-cache-hits': '4',
+122 silly get     'x-timer': 'S1462344153.719220,VS0,VE0',
+122 silly get     vary: 'Accept-Encoding' } ]
+123 verbose etag https://registry.npmjs.org/moment from cache
+124 verbose get saving moment to C:\Users\panneer.selvam\AppData\Roaming\npm-cache\registry.npmjs.org\moment\.cache.json
+125 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+126 silly resolveWithNewModule moment@1.6.2 checking installable status
+127 silly cache add args [ 'moment@1.6.2', null ]
+128 verbose cache add spec moment@1.6.2
+129 silly cache add parsed spec Result {
+129 silly cache add   raw: 'moment@1.6.2',
+129 silly cache add   scope: null,
+129 silly cache add   name: 'moment',
+129 silly cache add   rawSpec: '1.6.2',
+129 silly cache add   spec: '1.6.2',
+129 silly cache add   type: 'version' }
+130 silly addNamed moment@1.6.2
+131 verbose addNamed "1.6.2" is a plain semver version for moment
+132 silly mapToRegistry name moment
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry data Result {
+135 silly mapToRegistry   raw: 'moment',
+135 silly mapToRegistry   scope: null,
+135 silly mapToRegistry   name: 'moment',
+135 silly mapToRegistry   rawSpec: '',
+135 silly mapToRegistry   spec: 'latest',
+135 silly mapToRegistry   type: 'tag' }
+136 silly mapToRegistry uri https://registry.npmjs.org/moment
+137 verbose addNameVersion registry:https://registry.npmjs.org/moment not in flight; fetching
+138 silly resolveWithNewModule underscore@1.3.3 checking installable status
+139 silly cache add args [ 'underscore@1.3.3', null ]
+140 verbose cache add spec underscore@1.3.3
+141 silly cache add parsed spec Result {
+141 silly cache add   raw: 'underscore@1.3.3',
+141 silly cache add   scope: null,
+141 silly cache add   name: 'underscore',
+141 silly cache add   rawSpec: '1.3.3',
+141 silly cache add   spec: '1.3.3',
+141 silly cache add   type: 'version' }
+142 silly addNamed underscore@1.3.3
+143 verbose addNamed "1.3.3" is a plain semver version for underscore
+144 silly mapToRegistry name underscore
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry data Result {
+147 silly mapToRegistry   raw: 'underscore',
+147 silly mapToRegistry   scope: null,
+147 silly mapToRegistry   name: 'underscore',
+147 silly mapToRegistry   rawSpec: '',
+147 silly mapToRegistry   spec: 'latest',
+147 silly mapToRegistry   type: 'tag' }
+148 silly mapToRegistry uri https://registry.npmjs.org/underscore
+149 verbose addNameVersion registry:https://registry.npmjs.org/underscore not in flight; fetching
+150 verbose get https://registry.npmjs.org/moment not expired, no request
+151 silly mapToRegistry name moment
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry data Result {
+154 silly mapToRegistry   raw: 'moment',
+154 silly mapToRegistry   scope: null,
+154 silly mapToRegistry   name: 'moment',
+154 silly mapToRegistry   rawSpec: '',
+154 silly mapToRegistry   spec: 'latest',
+154 silly mapToRegistry   type: 'tag' }
+155 silly mapToRegistry uri https://registry.npmjs.org/moment
+156 verbose addRemoteTarball https://registry.npmjs.org/moment/-/moment-1.6.2.tgz not in flight; adding
+157 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-1.6.2.tgz',
+157 verbose addRemoteTarball   'fcbbf8c8e4ed3ed90b4c184214e6cee041d4b52d' ]
+158 verbose get https://registry.npmjs.org/underscore not expired, no request
+159 silly mapToRegistry name underscore
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: 'underscore',
+162 silly mapToRegistry   scope: null,
+162 silly mapToRegistry   name: 'underscore',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri https://registry.npmjs.org/underscore
+164 verbose addRemoteTarball https://registry.npmjs.org/underscore/-/underscore-1.3.3.tgz not in flight; adding
+165 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.3.3.tgz',
+165 verbose addRemoteTarball   '47ac53683daf832bfa952e1774417da47817ae42' ]
+166 info retry fetch attempt 1 at 12:12:33 PM
+167 info attempt registry request try #1 at 12:12:33 PM
+168 http fetch GET https://registry.npmjs.org/moment/-/moment-1.6.2.tgz
+169 info retry fetch attempt 1 at 12:12:33 PM
+170 info attempt registry request try #1 at 12:12:33 PM
+171 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.3.3.tgz
+172 http 200 https://registry.npmjs.org/xml2js
+173 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+173 verbose headers   etag: '"3G513SRLI5FQ4VRB9SNW1JEGL"',
+173 verbose headers   'content-type': 'application/json',
+173 verbose headers   'content-encoding': 'gzip',
+173 verbose headers   'cache-control': 'max-age=300',
+173 verbose headers   'content-length': '16862',
+173 verbose headers   'accept-ranges': 'bytes',
+173 verbose headers   date: 'Wed, 04 May 2016 06:42:33 GMT',
+173 verbose headers   via: '1.1 varnish',
+173 verbose headers   age: '146',
+173 verbose headers   connection: 'close',
+173 verbose headers   'x-served-by': 'cache-iad2131-IAD',
+173 verbose headers   'x-cache': 'HIT',
+173 verbose headers   'x-cache-hits': '1',
+173 verbose headers   'x-timer': 'S1462344153.486954,VS0,VE0',
+173 verbose headers   vary: 'Accept-Encoding' }
+174 silly get cb [ 200,
+174 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+174 silly get     etag: '"3G513SRLI5FQ4VRB9SNW1JEGL"',
+174 silly get     'content-type': 'application/json',
+174 silly get     'content-encoding': 'gzip',
+174 silly get     'cache-control': 'max-age=300',
+174 silly get     'content-length': '16862',
+174 silly get     'accept-ranges': 'bytes',
+174 silly get     date: 'Wed, 04 May 2016 06:42:33 GMT',
+174 silly get     via: '1.1 varnish',
+174 silly get     age: '146',
+174 silly get     connection: 'close',
+174 silly get     'x-served-by': 'cache-iad2131-IAD',
+174 silly get     'x-cache': 'HIT',
+174 silly get     'x-cache-hits': '1',
+174 silly get     'x-timer': 'S1462344153.486954,VS0,VE0',
+174 silly get     vary: 'Accept-Encoding' } ]
+175 verbose get saving xml2js to C:\Users\panneer.selvam\AppData\Roaming\npm-cache\registry.npmjs.org\xml2js\.cache.json
+176 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+177 silly resolveWithNewModule xml2js@0.1.14 checking installable status
+178 silly cache add args [ 'xml2js@0.1.14', null ]
+179 verbose cache add spec xml2js@0.1.14
+180 silly cache add parsed spec Result {
+180 silly cache add   raw: 'xml2js@0.1.14',
+180 silly cache add   scope: null,
+180 silly cache add   name: 'xml2js',
+180 silly cache add   rawSpec: '0.1.14',
+180 silly cache add   spec: '0.1.14',
+180 silly cache add   type: 'version' }
+181 silly addNamed xml2js@0.1.14
+182 verbose addNamed "0.1.14" is a plain semver version for xml2js
+183 silly mapToRegistry name xml2js
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry data Result {
+186 silly mapToRegistry   raw: 'xml2js',
+186 silly mapToRegistry   scope: null,
+186 silly mapToRegistry   name: 'xml2js',
+186 silly mapToRegistry   rawSpec: '',
+186 silly mapToRegistry   spec: 'latest',
+186 silly mapToRegistry   type: 'tag' }
+187 silly mapToRegistry uri https://registry.npmjs.org/xml2js
+188 verbose addNameVersion registry:https://registry.npmjs.org/xml2js not in flight; fetching
+189 verbose get https://registry.npmjs.org/xml2js not expired, no request
+190 silly mapToRegistry name xml2js
+191 silly mapToRegistry using default registry
+192 silly mapToRegistry registry https://registry.npmjs.org/
+193 silly mapToRegistry data Result {
+193 silly mapToRegistry   raw: 'xml2js',
+193 silly mapToRegistry   scope: null,
+193 silly mapToRegistry   name: 'xml2js',
+193 silly mapToRegistry   rawSpec: '',
+193 silly mapToRegistry   spec: 'latest',
+193 silly mapToRegistry   type: 'tag' }
+194 silly mapToRegistry uri https://registry.npmjs.org/xml2js
+195 verbose addRemoteTarball https://registry.npmjs.org/xml2js/-/xml2js-0.1.14.tgz not in flight; adding
+196 verbose addRemoteTarball [ 'https://registry.npmjs.org/xml2js/-/xml2js-0.1.14.tgz',
+196 verbose addRemoteTarball   '5274e67f5a64c5f92974cd85139e0332adc6b90c' ]
+197 info retry fetch attempt 1 at 12:12:34 PM
+198 info attempt registry request try #1 at 12:12:34 PM
+199 http fetch GET https://registry.npmjs.org/xml2js/-/xml2js-0.1.14.tgz
+200 http fetch 200 https://registry.npmjs.org/xml2js/-/xml2js-0.1.14.tgz
+201 silly fetchAndShaCheck shasum 5274e67f5a64c5f92974cd85139e0332adc6b90c
+202 verbose addTmpTarball C:\Users\PANNEE~1.SEL\AppData\Local\Temp\npm-11068-eeb2b39f\registry.npmjs.org\xml2js\-\xml2js-0.1.14.tgz not in flight; adding
+203 verbose addTmpTarball already have metadata; skipping unpack for xml2js@0.1.14
+204 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+205 silly cache afterAdd xml2js@0.1.14
+206 verbose afterAdd C:\Users\panneer.selvam\AppData\Roaming\npm-cache\xml2js\0.1.14\package\package.json not in flight; writing
+207 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+208 verbose afterAdd C:\Users\panneer.selvam\AppData\Roaming\npm-cache\xml2js\0.1.14\package\package.json written
+209 http fetch 200 https://registry.npmjs.org/underscore/-/underscore-1.3.3.tgz
+210 silly fetchAndShaCheck shasum 47ac53683daf832bfa952e1774417da47817ae42
+211 verbose addTmpTarball C:\Users\PANNEE~1.SEL\AppData\Local\Temp\npm-11068-eeb2b39f\registry.npmjs.org\underscore\-\underscore-1.3.3.tgz not in flight; adding
+212 verbose addTmpTarball already have metadata; skipping unpack for underscore@1.3.3
+213 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+214 silly cache afterAdd underscore@1.3.3
+215 verbose afterAdd C:\Users\panneer.selvam\AppData\Roaming\npm-cache\underscore\1.3.3\package\package.json not in flight; writing
+216 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+217 verbose afterAdd C:\Users\panneer.selvam\AppData\Roaming\npm-cache\underscore\1.3.3\package\package.json written
+218 http fetch 200 https://registry.npmjs.org/moment/-/moment-1.6.2.tgz
+219 silly fetchAndShaCheck shasum fcbbf8c8e4ed3ed90b4c184214e6cee041d4b52d
+220 verbose addTmpTarball C:\Users\PANNEE~1.SEL\AppData\Local\Temp\npm-11068-eeb2b39f\registry.npmjs.org\moment\-\moment-1.6.2.tgz not in flight; adding
+221 verbose addTmpTarball already have metadata; skipping unpack for moment@1.6.2
+222 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+223 silly cache afterAdd moment@1.6.2
+224 verbose afterAdd C:\Users\panneer.selvam\AppData\Roaming\npm-cache\moment\1.6.2\package\package.json not in flight; writing
+225 verbose correctMkdir C:\Users\panneer.selvam\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+226 verbose afterAdd C:\Users\panneer.selvam\AppData\Roaming\npm-cache\moment\1.6.2\package\package.json written
+227 error git clone --template=C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/adamghill/node-soap.git C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993: Cloning into bare repository 'C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993'...
+227 error git clone --template=C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/adamghill/node-soap.git C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993: fatal: unable to connect to github.com:
+227 error git clone --template=C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/adamghill/node-soap.git C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993: github.com[0: 192.30.252.130]: errno=No error
+228 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/adamghill/node-soap.git C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993
+228 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993'...
+228 silly fetchPackageMetaData fatal: unable to connect to github.com:
+228 silly fetchPackageMetaData github.com[0: 192.30.252.130]: errno=No error
+228 silly fetchPackageMetaData
+228 silly fetchPackageMetaData
+228 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+228 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+228 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+228 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+228 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+228 silly fetchPackageMetaData  error for soap@git://github.com/adamghill/node-soap.git { Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/adamghill/node-soap.git C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993
+228 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993'...
+228 silly fetchPackageMetaData fatal: unable to connect to github.com:
+228 silly fetchPackageMetaData github.com[0: 192.30.252.130]: errno=No error
+228 silly fetchPackageMetaData
+228 silly fetchPackageMetaData
+228 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+228 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+228 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+228 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+228 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+228 silly fetchPackageMetaData   killed: false,
+228 silly fetchPackageMetaData   code: 128,
+228 silly fetchPackageMetaData   signal: null,
+228 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\panneer.selvam\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror git://github.com/adamghill/node-soap.git C:\\Users\\panneer.selvam\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-adamghill-node-soap-git-35839993' }
+229 silly rollbackFailedOptional Starting
+230 silly rollbackFailedOptional Finishing
+231 silly runTopLevelLifecycles Starting
+232 silly runTopLevelLifecycles Finishing
+233 silly install printInstalled
+234 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/adamghill/node-soap.git C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993
+234 verbose stack Cloning into bare repository 'C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993'...
+234 verbose stack fatal: unable to connect to github.com:
+234 verbose stack github.com[0: 192.30.252.130]: errno=No error
+234 verbose stack
+234 verbose stack
+234 verbose stack     at ChildProcess.exithandler (child_process.js:202:12)
+234 verbose stack     at emitTwo (events.js:106:13)
+234 verbose stack     at ChildProcess.emit (events.js:191:7)
+234 verbose stack     at maybeClose (internal/child_process.js:850:16)
+234 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+235 verbose cwd c:\Panneer\nodejs\rbaDashboard
+236 error Windows_NT 6.1.7601
+237 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "exchanger"
+238 error node v6.0.0
+239 error npm  v3.8.6
+240 error code 128
+241 error Command failed: git -c core.longpaths=true clone --template=C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/adamghill/node-soap.git C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993
+241 error Cloning into bare repository 'C:\Users\panneer.selvam\AppData\Roaming\npm-cache\_git-remotes\git-github-com-adamghill-node-soap-git-35839993'...
+241 error fatal: unable to connect to github.com:
+241 error github.com[0: 192.30.252.130]: errno=No error
+242 error If you need help, you may report this error at:
+242 error     <https://github.com/npm/npm/issues>
+243 verbose exit [ 1, true ]
